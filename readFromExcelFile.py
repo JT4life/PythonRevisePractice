@@ -15,7 +15,7 @@ def read_excel(loc):
     except:
         print("Exception occurred")
 
-# read_excel(loc)
+read_excel(loc)
 
 #Create File Excel
 def create_excel(name, fields, data):
@@ -63,5 +63,5 @@ def append_to_excel(name, data):
         print(sys.exc_info)
 
 
-new_data=[["Kelly",5000],["jonny",4000],["tom",3000],["nancy",2000]]
-append_to_excel("createExampleExcel",new_data)
+# new_data=[["Kelly",5000],["jonny",4000],["tom",3000],["nancy",2000]]
+# append_to_excel("createExampleExcel",new_data)
