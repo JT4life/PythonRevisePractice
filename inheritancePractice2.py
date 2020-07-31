@@ -20,4 +20,4 @@ class Both(Person, Theif):
 o = Both()
 print(o.name)
 
-o.names()
+# o.names()
