@@ -1,5 +1,6 @@
 from threading import *
 from time import sleep
+import sys
 
 class Display1(Thread):
     def run(self):
@@ -22,3 +23,4 @@ o2.start()
 
 o1.join()
 o2.join()
+

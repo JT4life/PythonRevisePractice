@@ -1,4 +1,6 @@
 #Remember functions are objects can be passed through parameters
+import sys
+
 def f1():
     print("Call f1")
 
@@ -35,3 +37,4 @@ def add(x,y):
     return x+y
 
 print(add(4,5))
+print(sys.getsizeof(1))
