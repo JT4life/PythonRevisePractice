@@ -31,7 +31,7 @@ def surf_winner(surfers):
     :param surfers: A dictionary of dictionaries of surfers and their scores
     :return: The name of the winner
     """
-    
+
     winner = ''
     high_score = 0
     for surfer, scores in surfers.items():

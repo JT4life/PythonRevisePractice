@@ -6,7 +6,7 @@ def binary_search(arr, val, start, end):
             return start
         else:
             return start+1
-    #this occus if we're moving beyond lefts boundary
+    #this occurs if we're moving beyond lefts boundary
     if start > end:
         return start
 
